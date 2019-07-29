@@ -34,12 +34,15 @@ class CupidoView(APIView):
             d[i]['featuresAtGlance'] = arr_data
             arr_data = ast.literal_eval(d[i].get('highlights'))
             d[i]['highlights'] = arr_data
-            arr_data = ast.literal_eval(d[i].get('brand_image'))
+            arr_data = ast.literal_eval(d[i].get('images'))
             d[i]['images'] = arr_data
             arr_data = ast.literal_eval(d[i].get('brand_image'))
             d[i]['brand_image'] = arr_data
+            arr_data = ast.literal_eval(d[i].get('backdrop_image'))
+            d[i]['backdrop_image'] = arr_data
             arr_data = ast.literal_eval(d[i].get('whyweloveit_image'))
             d[i]['whyweloveit_image'] = arr_data
-
+            gender_data = d[i].get('gender')
+            d[i]['gender'] = bool(gender_data)
 
         return HttpResponse(json.dumps(d), content_type="application/json")
