@@ -44,5 +44,7 @@ class CupidoView(APIView):
             d[i]['whyweloveit_image'] = arr_data
             gender_data = d[i].get('gender')
             d[i]['gender'] = bool(gender_data)
+            market_data = d[i].get('marketPrice')
+            d[i]['marketPrice'] = int(market_data)
 
         return HttpResponse(json.dumps(d), content_type="application/json")
