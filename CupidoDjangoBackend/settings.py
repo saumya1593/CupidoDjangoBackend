@@ -27,7 +27,7 @@ SECRET_KEY = '9q&4y0w)mbj865p32j2-k*^4by90oxfsb0goo9v-@knw^nhw5$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["convertcsv2json.herokuapp.com"]
 
 
 # Application definition
