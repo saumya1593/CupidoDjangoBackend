@@ -6,4 +6,13 @@ pymongo==3.8.0
 pytz==2019.1
 six==1.12.0
 sqlparse==0.3.0
-gunicorn
+gunicorn==19.6.0
+dj-database-url==0.3.0
+dj-static==0.0.6
+Unipath==1.0
+python-decouple==3
+Pillow==3.3.0
+Markdown==2.6.6
+bleach==1.4.3
+psycopg2==2.6.1
+whitenoise==3.2
