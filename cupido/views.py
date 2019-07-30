@@ -7,6 +7,7 @@ import io
 
 class CupidoView(APIView):
 
+
     def post(self,request):
         data = []
         file_path = request.FILES['CSV']
