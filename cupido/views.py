@@ -13,7 +13,7 @@ class CupidoView(APIView):
         file_path = request.FILES['CSV']
 
         # Read CSV file to JSON
-        for row in csv.DictReader(io.StringIO(file_path.read().decode('utf-8'))):
+        for row in csv.DictReader(io.StringIO(file_path.read().decode('ISO-8859-1'))):
             data.append(row)
         file_path.seek(0)
         json_data = json.dumps(data)
