@@ -17,7 +17,7 @@ class CupidoView(APIView):
         conversion_keys_bool = dict(request.data).get('conversion_keys_bool')
 
         # Read CSV file to JSON
-        for row in csv.DictReader(io.StringIO(file_path.read().decode('utf-8'))):
+        for row in csv.DictReader(io.StringIO(file_path.read().decode('ISO-8859-1'))):
             data.append(row)
         file_path.seek(0)
         json_data = json.dumps(data)
@@ -27,3 +27,4 @@ class CupidoView(APIView):
         parsed_data = Services.parse_data(d,conversion_keys_list,conversion_keys_int,conversion_keys_bool)
 
         return HttpResponse(json.dumps(parsed_data), content_type="application/json")
+
