@@ -1,0 +1,61 @@
+[
+    {
+        "category": "womensclothing",
+        "brandName": "Kiaasa",
+        "title": "Women White Printed Straight Kurta",
+        "marketPrice": 1699,
+        "images": [
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Isomars/Fashion+Design+Kit/Kiaasa/KK0001/1.JPG",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Isomars/Fashion+Design+Kit/Kiaasa/KK0001/2.JPG",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Isomars/Fashion+Design+Kit/Kiaasa/KK0001/3.JPG",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Isomars/Fashion+Design+Kit/Kiaasa/KK0001/4.JPG",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Isomars/Fashion+Design+Kit/Kiaasa/KK0001/5.JPG",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Isomars/Fashion+Design+Kit/Kiaasa/KK0001/6.JPG"
+        ],
+        "backdrop_image": [
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Kiaasa/Kiaasa/Backdrop+1.jpg",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Kiaasa/Kiaasa/Backdrop+2.jpg"
+        ],
+        "backdrop_content": "<p>Take the world in your stride!<br /><br /><p>As a woman, you don an array of roles throughout the day - from a good daughter to a better wife and the best mother. Add to it the responsibilities of a college topper, powerhouse boss or a caring colleague, and you have little to no time left for self-care. Let's not forget the fact that you begin each new morning with the same old question of 'what to wear'!<br /><br /><p>Amidst this hustle of daily life, it's only fair you take time to indulge your spirit - and what better than some tender-loving retail therapy, minus the stress of overstepping your budget?<br /><br /><p>This is why Kiaasa brings you a fresh new range of the latest, most hip Indo-western attires that keep you looking and feeling great every day, sans being a pocket-pinch. It's time you put those worries aside and get ready to take on the world at your confident best!<br /><br /><p><b>Kurtis :<b><br /><br /><p>'I have plenty new kurtis in my closet, I don't need to shop for more,' said NO woman ever. ItÕs a wardrobe must-have! The versatility of the humble kurta and its sibling, the kurti, is unbelievable. They come in both mute pastels and a riot of colours, yet, what remains constant is the comfort factor. Pair your flowing kurta with simple leggings when you're expecting a long day ahead. Then, quickly slip into a pretty, embellished kurti with slim-fit jeans before heading out for dinner with your gang.</p>",
+        "whyweloveit_image": [],
+        "whyweloveit_content": "",
+        "brand_image": [
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Kiaasa/Kiaasa/Brand+1.jpg",
+            "https://lecp-product-images.s3.ap-south-1.amazonaws.com/products/Kiaasa/Kiaasa/Brand+2.jpg"
+        ],
+        "brand_content": "<p>Discover Indo-western with a dash of wow!<br /><br /><p>Wondering what to wear to your big day at work? Or simply fussing about today's college look? Worry not - whether you're heading out for a day with your family or a fun evening with the girls, we have the perfect solution to your every fashion woe.<br /><br /><p>Step into the world of Kiaasa - where we take the hottest trends from the world over and give them a desi spin! Find a seamless fusion of Western styles and Indian sensibilities, topped off with thoughtful-detailing that will make you go 'wow'!</p>",
+        "gender": true,
+        "productCatalogImage": "",
+        "video": "https://www.youtube.com/embed/iJUzxL95yuM",
+        "featuresAtGlance": [],
+        "highlights": [],
+        "filters": {
+            "Product Description": "White printed straight kurta, has a round neck, sleeveless, straight hem, multiple slits",
+            "Base Color": "Pastel",
+            "materialCareDescription": "Machine-wash",
+            "Fabric": "Cotton",
+            "Print or Pattern Type": "Geometric",
+            "Neck": "Round",
+            "Slit Detail": "Multiple Slits",
+            "Weave Pattern": "Regular",
+            "Weave Type": "Machine Weave",
+            "Front Length ": "Calf Length",
+            "Sleeve Length": "Sleeveless",
+            "Hemline": "Straight",
+            "Year": "2019",
+            "season": "Summer",
+            "SKU Code": "KK0001",
+            "Cupin": ""
+        },
+        "sale":{
+            "starttime": "2019-07-27",
+            "endtime": "2019-08-10",
+            "cupidlove": {
+                "quantity": 3,
+                "cupidLove": 150
+            },
+        "salePrice": 660,
+        "referralPercent": 1
+        }
+    }
+]

@@ -4,7 +4,7 @@ import json
 from django.http import HttpResponse
 import io
 from .services import Services
-
+from django.core.serializers.json import DjangoJSONEncoder
 
 class CupidoView(APIView):
 
@@ -26,5 +26,5 @@ class CupidoView(APIView):
 
         parsed_data = Services.parse_data(d,conversion_keys_list,conversion_keys_int,conversion_keys_bool)
 
-        return HttpResponse(json.dumps(parsed_data), content_type="application/json")
+        return HttpResponse(json.dumps(parsed_data, cls=DjangoJSONEncoder), content_type="application/json")
 
