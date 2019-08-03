@@ -6,9 +6,11 @@ class Services():
 
     def parse_data(d,conversion_keys_list,conversion_keys_int,conversion_keys_bool):
 
-        d[0]['filters'] = dict()
-        d[0]['sale'] = dict()
-        d[0]['sale']['cupidLove'] = dict()
+        for i in range(len(d)):
+            d[i]['filters'] = dict()
+            d[i]['sale'] = dict()
+            d[i]['sale']['cupidLove'] = dict()
+
         for i in range(len(d)):
             for key, value in d[i].items():  # iter on both keys and values
                 if key.startswith('filters.'):
@@ -19,10 +21,11 @@ class Services():
                         v = value
                     d[i]['filters'][k] = v
 
-            delete = [key for key in d[0] if key.startswith('filters.')]
-            for key in delete: del d[0][key]
+            delete = [key for key in d[i] if key.startswith('filters.')]
+            for key in delete: del d[i][key]
 
             for key, value in d[i].items():  # iter on both keys and values
+                print(d[i].keys())
                 if key.startswith('sale.'):
                     k = key.split(".", 1)[1]
                     if k.startswith('cupidLove.'):
@@ -40,15 +43,14 @@ class Services():
                             v = value
                         d[i]['sale'][k] = v
 
-            delete = [key for key in d[0] if key.startswith('sale.')]
-            for key in delete: del d[0][key]
+            delete = [key for key in d[i] if key.startswith('sale.')]
+            for key in delete: del d[i][key]
 
 
             for j in range(len(conversion_keys_list)):
 
                 try:
                     if conversion_keys_list[j] not in list(d[i].keys()):
-                        print(conversion_keys_list[j])
                         raise KeyError
                     else:
                         arr_data = ast.literal_eval(d[i].get(conversion_keys_list[j]))

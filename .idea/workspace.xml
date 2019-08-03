@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a876bd04-55da-4191-a898-3738d7f5d0ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CupidoDjangoBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CupidoDjangoBackend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cupido/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/cupido/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cupido/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cupido/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productsample.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/productsample.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +17,12 @@
     <session id="1629930015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,15 +31,15 @@
           <entry key="csv" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="json" value="3" />
-          <entry key="py" value="16" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="23" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="16" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,7 +48,7 @@
           <entry key="csv" value="5" />
           <entry key="gitignore" value="20" />
           <entry key="json" value="1" />
-          <entry key="py" value="1772" />
+          <entry key="py" value="2062" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
@@ -57,7 +56,7 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="1772" />
+          <entry key="Python" value="2062" />
         </counts>
       </usages-collector>
     </session>
@@ -67,57 +66,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cupido/services.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="1200">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
-                <element signature="e#1#11#0" expanded="true" />
-                <marker date="1564676912732" expanded="true" signature="93:98" ph="..." />
-                <marker date="1564676912732" expanded="true" signature="3198:3318" ph="..." />
-                <marker date="1564676912732" expanded="true" signature="3345:3473" ph="..." />
-                <marker date="1564676912732" expanded="true" signature="3504:3593" ph="..." />
+                <marker date="1564860814725" expanded="true" signature="93:98" ph="..." />
+                <marker date="1564860814725" expanded="true" signature="3377:3497" ph="..." />
+                <marker date="1564860814725" expanded="true" signature="3524:3652" ph="..." />
+                <marker date="1564860814725" expanded="true" signature="3683:3772" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cupido/views.py">
+        <entry file="file://$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <marker date="1564676786628" expanded="true" signature="228:234" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/productsample.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="523" selection-start-column="523" selection-end-column="523" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sampleproduct.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CupidoDjangoBackend/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-              <folding>
-                <element signature="e#320#329#0" expanded="true" />
+                <element signature="e#235#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +99,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pdb</find>
+      <find>print</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -141,20 +114,20 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/cupido/exceptions.py" />
-        <option value="$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/sampleproduct.json" />
         <option value="$PROJECT_DIR$/CupidoDjangoBackend/settings.py" />
         <option value="$PROJECT_DIR$/productsample.csv" />
         <option value="$PROJECT_DIR$/cupido/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py" />
         <option value="$PROJECT_DIR$/cupido/services.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="811" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +189,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -230,7 +203,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" visible="true" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" visible="true" weight="0.3300562" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -260,6 +233,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cupido/services.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -278,9 +261,6 @@
     <entry file="file://$PROJECT_DIR$/cupido/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cupido/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cupido/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -294,36 +274,11 @@
     <entry file="file://$PROJECT_DIR$/cupido/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/productsample (2).csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#235#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productsample.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/productsample (2).csv" />
     <entry file="file://$PROJECT_DIR$/CupidoDjangoBackend/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#320#329#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -345,23 +300,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cupido/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cupido/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CupidoDjangoBackend/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CupidoDjangoBackend/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1564676786628" expanded="true" signature="228:234" ph="..." />
+            <element signature="e#235#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cupido/services.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="1200">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
-            <element signature="e#1#11#0" expanded="true" />
-            <marker date="1564676912732" expanded="true" signature="93:98" ph="..." />
-            <marker date="1564676912732" expanded="true" signature="3198:3318" ph="..." />
-            <marker date="1564676912732" expanded="true" signature="3345:3473" ph="..." />
-            <marker date="1564676912732" expanded="true" signature="3504:3593" ph="..." />
+            <marker date="1564860814725" expanded="true" signature="93:98" ph="..." />
+            <marker date="1564860814725" expanded="true" signature="3377:3497" ph="..." />
+            <marker date="1564860814725" expanded="true" signature="3524:3652" ph="..." />
+            <marker date="1564860814725" expanded="true" signature="3683:3772" ph="..." />
           </folding>
         </state>
       </provider>
