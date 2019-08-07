@@ -39,6 +39,8 @@ class Services():
                             v = Services.convert_to_int(value)
                         elif k=='referralPercent':
                             v = Services.convert_to_float(value)
+                        elif k=='copy':
+                            v = Services.convert_to_bool(value)
                         else:
                             v = value
                         d[i]['sale'][k] = v
